@@ -27,5 +27,10 @@ A command line calculator that performs addition, subtraction, multiplication an
     Enter choice(1/2/3/4) : 1
      Result: 55.0  
 
+**screenshots**
+
+![Calculator output](screenshots/output.png)
+
+
 **Author**
 Hudzani     
