@@ -11,7 +11,7 @@ A command line calculator that performs addition, subtraction, multiplication an
     -Handles division by zero
     -Displays results in the terminal
 
- **HOW TO RUN**
+ **How to run**
 
       python calculator.py
 
@@ -26,6 +26,14 @@ A command line calculator that performs addition, subtraction, multiplication an
     4.Divide 
     Enter choice(1/2/3/4) : 1
      Result: 55.0  
+
+**Methodology**
+
+    1. Define a 'get_number()' function that keeps asking until the user enters a valid number('try/expect' catches letters).
+    2. Read two numbers and show a menu: add, subtract, multply, divide.
+    3. An 'if/elif/else' chain runs the chosen operation.
+    4. Division checks for zero first and prints an error instead of crashin.
+    5.Invalid menu choices print "Invalid choice".
 
 **screenshots**
 
